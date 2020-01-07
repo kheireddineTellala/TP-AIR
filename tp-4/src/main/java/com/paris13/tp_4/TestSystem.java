@@ -19,7 +19,7 @@ public class TestSystem {
 		ENTITY_MANAGER_FACTORY.close();
 	}
 
-	public static void addCustomer(int id , String fName , String lName, String tel, String mail , String idAdr , ) {
+	public static void addCustomer(int id , String fName , String lName, String tel, String mail , String idAdr ) {
 		EntityManager em = ENTITY_MANAGER_FACTORY.createEntityManager();
 		EntityTransaction et = null;
 		try {
